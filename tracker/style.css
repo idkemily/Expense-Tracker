@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: linear-gradient(#020024, #090979, #00d4ff);
+    height: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.tracker {
+    background-color: white;
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border: 10px;
+}
+
+.tracker {
+    align-items: center;
+    display: flex;
+}
+
+ .tracker h2 img {
+    width: 30px;
+    margin-left: 10px;
+ }
+
