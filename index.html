@@ -11,15 +11,36 @@
 <body>
     <div class="container">
       <div class="tracker">
-        <h2>Expense Tracker<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dollar_Sign.svg/500px-Dollar_Sign.svg.png?20120706173622"</h2>
+        <h2>Expense Tracker<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dollar_Sign.svg/500px-Dollar_Sign.svg.png?20120706173622"></h2>
             <div class="location">
+              <h6 id="tag">Name: </h6>
               <input type="text" id="location-input" placeholder="From where?">
             </div>
             <div class="details">
+              <h6 id="tag">Date: </h6>
               <input type="text" id="date-input" placeholder="mm/dd/yyyy">
-              <input type="text" id="amount-input" placeholder="">
+              <h6 id="tag">Amount: </h6>
+              <input type="text" id="amount-input" placeholder=" ">
             </div>
-
+            <button class="enter" onclick="add()">Add Expense</button>
+            <table class="table" style="width:100%">
+              <tr>
+                <th>Product</th>
+                <th>Date</th>
+                <th>Cost</th>
+              </tr>
+              <tr>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+            
       </div>
     </div>
 
